@@ -1,37 +1,80 @@
-## Welcome to GitHub Pages
+# Jekyll Instagram Portfolio Theme
 
-You can use the [editor on GitHub](https://github.com/gnat88/lemon/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Clean, minimalistic and responsive portfolio theme for Jekyll powered by Bootstrap 4.
+For the portfolio section is used Instagram widget, but you can easily update it with another content source.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Live Demo
 
-### Markdown
+https://portfolio-central.github.io/jekyll-instagram-portfolio-theme/
+![Jekyll Instagram Portfolio Theme](./screenshot.png "Jekyll Instagram Portfolio Theme")
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Showcase
 
-```markdown
-Syntax highlighted code block
+The best usage examples:
 
-# Header 1
-## Header 2
-### Header 3
+- [Pavel Guzenko](http://guzenko.org.ua)
+- [Victor Mikitenko](https://mikitenko-org-ua.github.io/site/)
+- [Anthony Fuentes](http://anthonyfuentes.us/)
+- [Serhii Grytsyshyn](https://grserhii.github.io/)
 
-- Bulleted
-- List
+To add your example: fork the repo, add new line to the list above and create a pull request.
 
-1. Numbered
-2. List
+## Featured on
 
-**Bold** and _Italic_ and `Code` text
+- [Template.net](https://www.template.net/cms-templates/jekyll/jekyll-themes-templates/)
+- [JekyllThemes.org](http://jekyllthemes.org/themes/instagram-portfolio-theme/)
 
-[Link](url) and ![Image](src)
+## Powered by
+
+- [Jekyll](https://jekyllrb.com/)
+- [Bootstrap 4](http://v4-alpha.getbootstrap.com/)
+- [jQuery](https://jquery.com/)
+- [SnapWidget](https://snapwidget.com)
+- [Google Fonts: Lobster](https://fonts.google.com/specimen/Lobster)
+- [Font Awesome](http://fontawesome.io/)
+
+## Installation
+Install Jekyll:
+
+```
+gem install jekyll bundler
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Install bundle dependiencies:
 
-### Jekyll Themes
+```
+bundle install
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gnat88/lemon/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+When finished, run the dev server:
 
-### Support or Contact
+```
+bundle exec jekyll serve
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+or just:
+
+```
+jekyll serve
+
+```
+To stop the server, use `CTRL+C`.
+
+## Building front-end assets: styles and scripts
+
+Install module dependencies:
+
+```
+npm install
+```
+
+Run the build script to generate updated front-end assets:
+
+```
+npm run build
+```
+
+Watch for changes and automatically rebuild assets (`CTRL+C` to stop):
+```
+npm run watch
+```
