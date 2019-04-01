@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
-    {% include head.html %}
-    <body>
-        {% include navbar.html %}
-        {% include top.html %}
-        {% include about.html %}
-        {% include instagram.html %}
-        {% include contacts.html %}
-        {% include copyright.html %}
-        {% include tracking.html %}
-    </body>
+
+  {% include head.html %}
+
+  <body class="index">
+
+    {% include header.html %}
+    {% include docs_header.html %}
+    {% if page.title %}
+      {% include banner.html %}
+    {% endif %}
+
+    {{ content }}
+    
+    {% include footer.html %}
+
+  </body>
 </html>
