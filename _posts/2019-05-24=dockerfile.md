@@ -1,9 +1,9 @@
 ---
 layout: post
-title: fluentd安装与简介
-date:   2019-04-01 20:05:00 +0800
+title: dockerfile语法
+date:   2019-05-24 20:05:00 +0800
 categories: 技术
-tag: Fluentd
+tag: docker
 ---
 
 * content
